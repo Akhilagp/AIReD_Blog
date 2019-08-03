@@ -1,0 +1,28 @@
+# Site settings
+title: "CSAU- AIReD"         
+description:    "Follow the site regularly for resources and AIReD content"
+url:            "https://Akhilagp.github.io"
+# Author
+author:
+  name:         Akhila Gomadam Padmanaban
+  url:          https://akhilagp.github.io
+  email:        akhilapadmanaban@gmail.com
+
+# Build settings
+markdown:       kramdown
+
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        compressed
+
+# Gems
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+   - jemoji #Uncomment this to allow emoji in your post
+
+# Permalinks
+permalink:      /:year-:month-:day/:title
+paginate:       5
